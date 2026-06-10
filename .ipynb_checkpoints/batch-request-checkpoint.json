@@ -1,0 +1,20 @@
+{
+  "_comment": "Three images: two valid JPEGs and one intentionally corrupt payload to demonstrate per-item partial failure handling. All image fields are base64 placeholders representing ~120 KB JPEGs except item 'upload-8823' which is garbage bytes simulating a corrupt upload.",
+  "items": [
+    {
+      "id": "upload-8821",
+      "image": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/wAARCAABAAEDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAACf/EABQQAQAAAAAAAAAAAAAAAAAAAAD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AJQAB/9k=",
+      "top_k": 5
+    },
+    {
+      "id": "upload-8822",
+      "image": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoH7AoKCwsKCgsLDA8QDAsOCwgIDRENDg8QEBEQCgwSExIQEw8QEBD/wAAR/wAARCAABAAEDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAACf/EABQQAQAAAAAAAAAAAAAAAAAAAAD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AJQAB/9k=",
+      "top_k": 3
+    },
+    {
+      "id": "upload-8823",
+      "image": "dGhpcyBpcyBub3QgYSB2YWxpZCBpbWFnZQo=",
+      "top_k": 5
+    }
+  ]
+}

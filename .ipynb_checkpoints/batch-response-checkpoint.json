@@ -1,0 +1,31 @@
+{
+  "request_id": "d9e0f1a2-b3c4-5d6e-7f80-9a0b1c2d3e4f",
+  "results": [
+    {
+      "id": "upload-8821",
+      "labels": [
+        { "label": "safe",            "probability": 0.9241 },
+        { "label": "suggestive/mild", "probability": 0.0421 },
+        { "label": "violence/mild",   "probability": 0.0198 },
+        { "label": "nudity/explicit", "probability": 0.0093 },
+        { "label": "hate-symbol",     "probability": 0.0047 }
+      ]
+    },
+    {
+      "id": "upload-8822",
+      "labels": [
+        { "label": "violence/graphic", "probability": 0.7814 },
+        { "label": "violence/mild",    "probability": 0.1503 },
+        { "label": "safe",             "probability": 0.0683 }
+      ]
+    },
+    {
+      "id": "upload-8823",
+      "error": {
+        "code": "INVALID_IMAGE",
+        "message": "Image data for item 'upload-8823' is corrupt or cannot be decoded.",
+        "request_id": "d9e0f1a2-b3c4-5d6e-7f80-9a0b1c2d3e4f"
+      }
+    }
+  ]
+}

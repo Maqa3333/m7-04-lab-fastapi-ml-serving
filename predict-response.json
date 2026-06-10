@@ -1,0 +1,10 @@
+{
+  "request_id": "4a7b9c2e-1d3f-4e56-8a0b-2c3d4e5f6071",
+  "labels": [
+    { "label": "safe",              "probability": 0.8812 },
+    { "label": "suggestive/mild",   "probability": 0.0731 },
+    { "label": "violence/mild",     "probability": 0.0241 },
+    { "label": "nudity/explicit",   "probability": 0.0134 },
+    { "label": "hate-symbol",       "probability": 0.0082 }
+  ]
+}
